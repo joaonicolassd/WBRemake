@@ -1,5 +1,5 @@
 function encontraValor(numerosLista, valorNumerico){
-    for(i = 0; i < numerosLista.length; i++){
+    for(let i = 0; i < numerosLista.length; i++){
         if(valorNumerico === numerosLista[i]){
             return "Valor encontrado"
         }
